@@ -1,10 +1,10 @@
 # Spark
+<html>
+  <body>
 An IOS app designed to teach circuitry and coding to low-income communities
 <p align="center">
-  <body>
   <object data="http://www.youtube.com/embed/W7qWa52k-nE"
    width="560" height="315"></object>
- </body>
 </p>
 
 ## Problem Statement
@@ -18,3 +18,5 @@ There is a variety of technology education apps currently on the market, but as 
 
 ## Spark's Features
 To add to its uniqueness, Spark is full of features that separate it from its competitors. Firstly, to complement its “jack-of-all-trades” theme, we included coding, circuitry, and hardware all into one simple and coherent interface. A click on a menu item will bring a user to their chosen destination, allowing them to interact with whatever that specific sub-app feature has to offer. For example, clicking the coding menu item will bring the user to an IDE where they can code exactly what they want to happen on the microcontroller. Hardware will present all of an engineer’s needed tools, and the circuitry menu-item will allow the user to virtually interact with a microcontroller, which is functioning based on code inputted in its respective menu-item. A final app version would employ a greater magnitude of educational involvement, with challenges and quizzes for a student to test their skills, and possibly an app-teacher interface that would allow for a greater degree of in-school incorporation. As a result of its many features, Spark is versatile and applicable for all educational purposes - whether it be a user learning for a class, a job, or personal enjoyment.
+</body>
+</html>
