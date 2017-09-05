@@ -2,9 +2,11 @@
 
 An IOS app designed to teach circuitry and coding to low-income communities
 <p align="center">
+  <body>
   <iframe width="420" height="315"
   src="https://www.youtube.com/embed/XGSy3_Czz8k">
   </iframe>
+  </body>
 </p>
 
 ## Problem Statement
