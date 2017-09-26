@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Ha-rp-QqK">
+                                <color key="backgroundColor" red="0.08002326637506485" green="0.66916650533676147" blue="0.77805691957473755" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Dx-hY-iMf">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="Usq-hN-r8Y">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="67G-Ap-2Mb">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="67G-Ap-2Mb" secondAttribute="height" multiplier="200:200" id="iz3-Bp-keV"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2C-wv-1cJ">
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="1Ha-rp-QqK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0m3-ny-2Il"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7Dx-hY-iMf" secondAttribute="bottom" id="SAH-8y-AYD"/>
+                            <constraint firstAttribute="trailing" secondItem="7Dx-hY-iMf" secondAttribute="trailing" id="Yz9-Di-PxU"/>
+                            <constraint firstItem="7Dx-hY-iMf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="eCk-ae-sRt"/>
+                            <constraint firstItem="7Dx-hY-iMf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="j2L-Fn-tuc"/>
+                            <constraint firstItem="1Ha-rp-QqK" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="mCr-yF-BMx"/>
+                            <constraint firstAttribute="trailing" secondItem="1Ha-rp-QqK" secondAttribute="trailing" id="njN-ax-Xnw"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1Ha-rp-QqK" secondAttribute="bottom" id="q7T-De-PKn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12" y="95"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Star" width="320" height="320"/>
+    </resources>
+</document>
