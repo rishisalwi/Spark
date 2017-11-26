@@ -8,8 +8,6 @@ An IOS app designed to teach circuitry and coding to low-income communities
 ### [Link to Video](https://www.youtube.com/watch?v=zX9Pi-Nl1lI)
 
 
-
-https://i.imgur.com/rYdgw12.png
 ## Problem Statement
 Circuitry and electricity, while important principles to learn for any self-sufficient person, are being under-taught in the education system. As the technology sector grows, the gap between the amount of jobs and the amount of educated workers to do them grows with it. In fact, while there are approximately 1.4 million computer-based jobs in the US, there are less than 400,000 educated students that have the potential to fill these jobs. A lack of accessibility and education for technology causes this. In fact, only 10% of schools nation-wide offer computer science classes. In addition, only 1.4% of advanced placements students took the AP computer science exam compared to the 40% who took the AP English exam. Despite attending a vocational pre-engineering academy, we still see this same problem occurring in our school every day. Even in our school, the number one STEM school in the entire country, only one-third of our class ends up taking a class that teaches students to use microcontrollers. Our team saw the need for a cost-effective solution that is accessible to people of all ages and socioeconomic backgrounds. To accomplish this, we created Spark.
 
