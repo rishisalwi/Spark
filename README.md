@@ -6,9 +6,7 @@ An IOS app designed to teach circuitry and coding to low-income communities
 </p>
 
 ## [Link to Video](https://www.youtube.com/watch?v=zX9Pi-Nl1lI)
-<p align="center">
-  <img src ="http://i.imgur.com/843fpG6.png" />
-</p>
+
 <p align="center">
   <img src ="https://imgur.com/rYdgw12.png" />
 </p>
